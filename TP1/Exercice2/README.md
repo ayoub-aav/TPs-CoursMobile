@@ -17,7 +17,7 @@
 
     <h2>Vidéo</h2>
     <video controls width="500">
-        <source src="video.mp4" type="video/mp4">
+        <source src="https://github.com/user-attachments/assets/3a3c5d4d-9ab7-4b08-b51a-0f21e566fa1c" type="video/mp4">
         Votre navigateur ne supporte pas la balise vidéo.
     </video>
 </body>
