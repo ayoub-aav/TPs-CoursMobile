@@ -12,8 +12,8 @@
     </p>
     
     <h2>Images</h2>
-    <img src="image1.png" alt="Capture d'écran 1 de l'application" width="300">
-    <img src="image2.png" alt="Capture d'écran 2 de l'application" width="300">
+    <img src="interface1.PNG" alt="Capture d'écran 1 de l'application" width="300">
+    <img src="interface2.PNG" alt="Capture d'écran 2 de l'application" width="300">
 
     <h2>Vidéo</h2>
     <video controls width="500">
