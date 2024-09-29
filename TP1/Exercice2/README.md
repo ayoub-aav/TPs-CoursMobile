@@ -10,8 +10,8 @@
     <p>Dans cet exercice, nous avons développé une application simple en utilisant <strong>ConstraintLayout</strong>. L'application comporte un <code>TextView</code> pour afficher un score, et deux boutons : un bouton pour incrémenter le score et un bouton pour afficher un message Toast. La mise en page est réalisée à l'aide de ConstraintLayout, et une barre d'outils personnalisée est incluse en haut de l'écran.</p>
 
     <h2>Images</h2>
-    <img src="image1.png" alt="Capture d'écran de l'application - Interface principale" width="500">
-    <img src="image2.png" alt="Capture d'écran de l'application - Message Toast" width="500">
+    <img src="./images/interface1.PNG" alt="Capture d'écran de l'application - Interface principale" width="500">
+    <img src="./images/interface2.PNG" alt="Capture d'écran de l'application - Message Toast" width="500">
 
     <h2>Vidéo</h2>
     <video width="500" controls>
