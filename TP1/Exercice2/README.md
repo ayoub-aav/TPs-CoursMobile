@@ -8,7 +8,7 @@
 <body>
     <h1>Calcul des Impôts Locaux</h1>
     <p>
-        Dans cet exercice Android Studio, j'ai développé une application permettant de calculer l'impôt local en fonction de la surface d'un bien, du nombre de pièces, et de la présence ou non d'une piscine. L'utilisateur saisit la surface et le nombre de pièces, et peut cocher une case si une piscine est présente. Un bouton "Calcul" permet de déclencher le calcul de l'impôt, qui se compose d'une taxe de base dépendant de la surface et d'une taxe supplémentaire en fonction du nombre de pièces et de la piscine. Les résultats sont ensuite affichés à l'écran sous forme d'impôts de base, supplémentaires et totaux.
+        Dans cet exercice Android Studio, j'ai développé une application permettant de calculer l'impôt local en fonction de la surface d'un bien, du nombre de pièces, et de la présence ou non d'une piscine. L'utilisateur saisit la surface et le nombre de pièces,autre information aussi et peut cocher une case si une piscine est présente. Un bouton Calcul affiche le calcul de l'impôt, qui se compose d'une taxe de base dépendant de la surface et d'une taxe supplémentaire en fonction du nombre de pièces et de la piscine. Les résultats sont ensuite affichés en bas de l'ecran.
     </p>
     
     <h2>Images</h2>
