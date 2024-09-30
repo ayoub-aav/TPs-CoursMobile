@@ -11,8 +11,7 @@
         L'application Android développée permet aux utilisateurs de soumettre des informations personnelles à travers une interface conviviale. 
         L'écran principal (MainActivity) comprend des champs pour saisir le nom, l'adresse, l'e-mail, la ville et le numéro de téléphone, ainsi qu'un bouton pour envoyer ces informations. 
         Lorsqu'un utilisateur remplit les champs et appuie sur le bouton "Envoyer", les données sont transférées à une seconde activité (MainActivity2) où elles sont affichées. 
-        Cela permet de démontrer la communication entre différentes activités dans une application Android. 
-        Cette structure favorise une meilleure gestion des données et améliore l'expérience utilisateur grâce à une interface fluide et intuitive.
+        Aussi un autre bouton Quitter ,lorceque l'utilisateur clique sur ce button l'application ce ferme
     </p>
     
     <h2>Images de l'application</h2>
