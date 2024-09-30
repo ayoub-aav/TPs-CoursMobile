@@ -8,7 +8,7 @@
 <body>
     <h1>Calcul des Impôts Locaux</h1>
     <p>
-      Dans cet exercice, nous avons développé une application Android pour créer une interface utilisateur intuitive. L'application propose un questionnaire simple avec des options à choix multiples et des boutons radio. Les utilisateurs peuvent sélectionner plusieurs réponses via des cases à cocher et faire un choix entre "OUI" et "NON" à l'aide des boutons radio. Après avoir fait leurs choix, les utilisateurs peuvent cliquer sur le bouton "Suivant" pour passer à une nouvelle activité où leurs réponses sont affichées. Cette application illustre les principes fondamentaux de la gestion des interfaces utilisateur en Android, tout en intégrant des fonctionnalités interactives de base.
+      Dans cet exercice, nous avons développé une application Android pour créer une interface utilisateur. L'application propose un questionnaire simple avec des options à choix multiples et des boutons radio. Les utilisateurs peuvent sélectionner plusieurs réponses a partir des cases à cocher et faire un choix entre OUI-NON à l'aide des boutons radio. les utilisateurs peuvent cliquer sur le bouton Suivant pour afficher le resultat.
     </p>
     
     <h2>Images</h2>
