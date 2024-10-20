@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/nommodif"
+        android:layout_width="100dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/imageitem"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/prenommodif"
+        android:layout_width="100dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/nommodif"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sexe"
+        android:layout_width="100dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/villemodif"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/villemodif"
+        android:layout_width="100dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/imageitem"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageitem"
+        android:layout_width="112dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:id="@+id/imagevieeew"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
