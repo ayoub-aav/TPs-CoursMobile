@@ -8,7 +8,7 @@
 <body>
     <h1>Permission application</h1>
     <p>
-        Dans cet exercice Android Studio, j'ai développé une application de gestion des gens permettant d'ajouter, modifier, afficher et filtrer des étudiants dans un RecyclerView. L'utilisateur peut visualiser la liste des étudiants avec leurs photos, noms, et autres détails. Lorsqu'un étudiant est sélectionné dans la liste, un dialogue s'affiche pour modifier les informations, telles que le nomet l'autre information . L'application offre une interface conviviale grâce à l'utilisation de Layouts modernes et des événements de swipe pour supprimer. Un Spinner et un RadioGroup sont également intégrés pour améliorer la saisie des informations.
+        Dans cet exercice Android Studio, j'ai développé une application de gestion des permissions pour l'audio, la localisation et la caméra. L'application permet à l'utilisateur de vérifier et de demander les autorisations nécessaires pour ces fonctionnalités via une interface simple et intuitive. Lorsque l'utilisateur clique sur un bouton, l'application demande la permission correspondante et affiche un message indiquant si la permission a été accordée ou refusée. Si une permission est refusée, l'utilisateur peut être redirigé vers les paramètres de l'application pour l'activer manuellement. L'application utilise un design moderne avec des boutons interactifs et des TextViews pour afficher l'état des permissions. Le support du mode « edge-to-edge » améliore l'intégration visuelle sur l'écran
     </p>
 
     <h2>Vidéos</h2>
