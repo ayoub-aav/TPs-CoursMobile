@@ -6,87 +6,105 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     tools:context=".MainActivity">
-
-    <Button
-        android:id="@+id/buttonlocation"
-        android:layout_width="348dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="40dp"
-        android:text="Permission Location"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonaudio" />
-
-    <Button
-        android:id="@+id/buttonaudio"
-        android:layout_width="348dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="90dp"
-        android:text="Permission Audio"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cameraresult" />
-
-    <Button
-        android:id="@+id/buttoncamera"
-        android:layout_width="348dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="40dp"
-        android:text="Permission camera"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonlocation" />
-
+    
     <TextView
         android:id="@+id/textView"
-        android:layout_width="348dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:gravity="center"
-        android:text="permissions app"
-        android:textSize="40sp"
+        android:text="Permissions App"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/audioresult"
-        android:layout_width="348dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="70dp"
-        android:gravity="center_vertical"
-        android:text="TextView"
+    
+    <Button
+        android:id="@+id/buttonaudio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Permission Audio"
         android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:padding="16dp"
+        android:elevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
-
+    
     <TextView
-        android:id="@+id/Locationresult"
-        android:layout_width="348dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="40dp"
-        android:gravity="center_vertical"
-        android:text="TextView"
+        android:id="@+id/audioresult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Audio Permission Status"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonaudio" />
+    
+    <Button
+        android:id="@+id/buttonlocation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Permission Location"
         android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:padding="16dp"
+        android:elevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/audioresult" />
-
+    
     <TextView
-        android:id="@+id/cameraresult"
-        android:layout_width="348dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="40dp"
-        android:gravity="center_vertical"
-        android:text="TextView"
+        android:id="@+id/Locationresult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Location Permission Status"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonlocation" />
+    
+    <Button
+        android:id="@+id/buttoncamera"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Permission Camera"
         android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:padding="16dp"
+        android:elevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Locationresult" />
+    
+    <TextView
+        android:id="@+id/cameraresult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Camera Permission Status"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttoncamera" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
